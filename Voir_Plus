@@ -1,0 +1,46 @@
+# Conversion 220V en 5V DC
+
+Ce projet décrit la conception d’un circuit permettant de convertir une tension secteur de **220V AC** en une tension **5V DC** stabilisée. Il est utile pour alimenter des microcontrôleurs, des capteurs ou encore pour recharger un téléphone portable.
+
+## Introduction
+L’objectif de ce projet est de fournir une solution simple et efficace pour transformer une tension secteur élevée en une tension basse et stable adaptée aux circuits électroniques.
+
+## 🛠️ Liste des Composants
+- **Transformateur** 220V AC → 12V AC
+- **Pont de diodes** (4 x 1N4007)
+- **Condensateur de filtrage** (2200µF / 25V)
+- **Régulateur de tension** (LM7805)
+- **Résistance** (220Ω)
+- **LED** (Indicateur de fonctionnement)
+
+## 🔧 Schéma Électrique
+Le circuit repose sur quatre étapes principales :
+
+1. **Transformation de la tension**
+   - Un transformateur abaisse la tension secteur de **220V AC** à **12V AC**.
+
+2. **Redressement du courant**
+   - Un **pont de diodes** convertit cette tension alternative en une tension continue pulsée.
+
+3. **Filtrage de la tension**
+   - Un **condensateur** lisse la tension pour réduire les variations résiduelles.
+
+4. **Régulation de la tension**
+   - Un **LM7805** régule la tension en sortie pour obtenir **5V DC stable**.
+
+Un indicateur LED avec une **résistance de 220Ω** permet de signaler que le circuit fonctionne correctement.
+
+## ⚠️ Sécurité et Précautions
+- Toujours **vérifier les connexions** avant de brancher le circuit au secteur.
+- **Ne jamais manipuler** le circuit sous tension.
+- Ajouter un **fusible** ou une **thermistance** pour une meilleure protection.
+
+
+## 🏆 Conclusion
+Ce projet est une excellente introduction à la **conversion d’énergie et à la régulation de tension**. Il peut être utilisé dans de nombreux projets électroniques nécessitant une alimentation en **5V stable**.
+
+**Si vous avez des suggestions ou des améliorations, n’hésitez pas à contribuer !** 
+
+---
+✍️ LOCONON Cyrus 
+📅 Mardi 25 Mars 2025
